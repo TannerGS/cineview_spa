@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import Header from './components/ui/Header'
+import Footer from './components/ui/Footer'
 import ShowGrid from './components/show/ShowGrid'
 import Search from './components/ui/Search'
 import './App.css'
@@ -27,10 +28,13 @@ const App = () => {
   }, [query])
 
   return (
-    <div className='container'>
-      <Header />
-      <Search getQuery={(q) => setQuery(q)} />
-      <ShowGrid isLoading={isLoading} items={items} />
+    <div>
+      <div className='container'>
+        <Header />
+        <Search getQuery={(q) => setQuery(q)} />
+        <ShowGrid isLoading={isLoading} items={items} />
+      </div>
+      <Footer />
     </div>
   )
 }

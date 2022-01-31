@@ -41,6 +41,33 @@ header img {
   width: 200px;
 }
 
+.footer {
+  width: 100%;
+  margin-top: 50px;
+  padding-bottom: 0;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 97%,
+    rgba(83, 0, 12, 1) 100%,
+    rgba(170, 0, 0, 1) 100%
+  );
+  display: flex;
+  bottom: 0;
+  color: white;
+  font-size: 20px;
+}
+
+.footer img {
+  margin-left: 10%;
+}
+
+.footer p {
+  color: #aa0000;
+  margin-top: 56px;
+  margin-left: 40%;
+}
+
 .center {
   display: flex;
   align-items: center;
