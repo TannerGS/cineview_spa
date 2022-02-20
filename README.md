@@ -6,10 +6,10 @@ TV show database built using the TVMaze api, and reactJs
 
 In the project directory, you can run:
 
-### `npm install`
-
 Install dependencies
 
-### `npm start`
+### `npm install`
 
 Start the server
+
+### `npm start`
