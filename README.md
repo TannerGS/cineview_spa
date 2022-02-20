@@ -1,6 +1,6 @@
 # Project Description
 
-TV show database
+TV show database built using the TVMaze api, and reactJs
 
 ## Available Scripts
 
